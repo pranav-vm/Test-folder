@@ -1,0 +1,34 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "cmake:with_openssl=False\nhello:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "..\\..\\..\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "hello/0.1@user/testing",
+    "options": "shared=False\ncmake:with_openssl=False",
+    "package_id": "d39f36bafde862f1e012201978709396fad17f20",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "cmake/3.19.2",
+    "options": "with_openssl=False",
+    "package_id": "01edd76db8e16db9b38c3cca44ec466a9444c388",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\nbuild_type=Debug\ncompiler=Visual Studio\ncompiler.runtime=MDd\ncompiler.toolset=v142\ncompiler.version=16\nos=Windows\n[options]\n[build_requires]\n[env]\n"
+}

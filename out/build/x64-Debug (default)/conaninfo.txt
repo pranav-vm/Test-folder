@@ -1,0 +1,36 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MDd
+    compiler.version=16
+    os=Windows
+
+[requires]
+    hello/0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MDd
+    compiler.toolset=v142
+    compiler.version=16
+    os=Windows
+
+[full_requires]
+    cmake/3.19.2:01edd76db8e16db9b38c3cca44ec466a9444c388
+    hello/0.1@user/testing:d39f36bafde862f1e012201978709396fad17f20
+
+[full_options]
+    cmake:with_openssl=False
+    hello:shared=False
+
+[recipe_hash]
+
+
+[env]
+
