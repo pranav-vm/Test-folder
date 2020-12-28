@@ -3,5 +3,6 @@
 
  int main() {
      hello();
+     std::cout << "\n Successful";
      std::cin.ignore();
  }
